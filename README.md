@@ -1,5 +1,4 @@
 
-Link to Heroku https://sheltered-dusk-80472.herokuapp.com/
 
 ## Overview
 The assignment is to build a small, full stack javascript application. The application is a simple game
@@ -48,12 +47,6 @@ Otherwise use two commands
 `npm run webpack`
 
 `npm run server`
-
-
-#### Tested devices:
-- Chrome, Firefox, IE 11 (should work up to IE8 with es5-shim thanks to webpack and babel)
-- Android 5 (Moto X2, Lenovo Yoga Tab 2, HTC One)
-- iOS 10.2 (IPhone 7)
 
 
 Server tested on Node v.6.9.2 LTS
