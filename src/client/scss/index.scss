@@ -1,0 +1,65 @@
+//mobile responsive
+@media only screen and (orientation:portrait){
+    .images_holder img {
+        width: 50%;
+    }
+}
+
+
+//common styling
+body {
+    color: gray;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+
+    &.loading .load_indicator {
+        display: block;
+    }
+
+    .load_indicator {
+        display: none;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: RGBA(22, 22, 22, 0.2);
+    }
+}
+
+//page parts by type
+.text_holder {
+    font: 70px/1 serif;
+    min-height: 70px;
+}
+
+.images_holder {
+    min-height: 160px;
+}
+
+.bonus_holder {
+    min-height: 70px;
+
+    .bonus {
+        color: #007700;
+        font: 60px/1 serif;
+    }
+}
+
+.button_holder {
+    text-align: center;
+
+    button {
+        height: 98px;
+        width: 98px;
+        padding: 0;
+        margin: 0;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
